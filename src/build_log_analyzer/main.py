@@ -279,7 +279,7 @@ class BuildLogAnalyzerApp(Adw.Application):
             self.window = BuildLogAnalyzerWindow(self)
         self.window.present()
 
-    def _on_settings(self, *_):
+    def _on_settings(self, *_args):
         if not self.window:
             return
         dialog = Adw.PreferencesDialog()
@@ -294,7 +294,7 @@ class BuildLogAnalyzerApp(Adw.Application):
         dialog.add(page)
         dialog.present(self.window)
 
-    def _on_copy_debug(self, *_):
+    def _on_copy_debug(self, *_args):
         if not self.window:
             return
         from . import __version__
@@ -309,7 +309,7 @@ class BuildLogAnalyzerApp(Adw.Application):
         clipboard.set(info)
         self.window._status.set_text(_("Debug info copied"))
 
-    def _on_shortcuts(self, *_):
+    def _on_shortcuts(self, *_args):
         if self.window:
             dialog = Gtk.ShortcutsWindow(transient_for=self.window)
             section = Gtk.ShortcutsSection(visible=True)
@@ -323,7 +323,7 @@ class BuildLogAnalyzerApp(Adw.Application):
             dialog.append(section)
             dialog.present()
 
-    def _on_about(self, *_):
+    def _on_about(self, *_args):
         from . import __version__
         dialog = Adw.AboutDialog(
             application_name=_("Build Log Analyzer"),
@@ -337,7 +337,7 @@ class BuildLogAnalyzerApp(Adw.Application):
         )
         dialog.present(self.window)
 
-    def _on_quit(self, *_):
+    def _on_quit(self, *_args):
         self.quit()
 
 
