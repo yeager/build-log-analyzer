@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=build-log-analyzer
+Comment=GTK4 sbuild and pbuilder log analyzer with error highlighting
+Exec=build-log-analyzer
+Icon=applications-other-symbolic
+Terminal=false
+Categories=Development;
