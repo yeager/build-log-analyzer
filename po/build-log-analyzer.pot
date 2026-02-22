@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: build-log-analyzer 0.1.0\n"
+"Project-Id-Version: build-log-analyzer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 07:09+0100\n"
+"POT-Creation-Date: 2026-02-22 17:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,52 +17,67 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/build_log_analyzer/main.py:82
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:82
+#: src/build_log_analyzer/main.py:83
 msgid "Build failure detected in dh_auto_build"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:84
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:84
+#: src/build_log_analyzer/main.py:85
 msgid "Test failure detected"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:92 src/build_log_analyzer/main.py:100
-#: src/build_log_analyzer/main.py:329
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:92
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:100
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:329
+#: src/build_log_analyzer/main.py:93 src/build_log_analyzer/main.py:101
+#: src/build_log_analyzer/main.py:330
 msgid "Build Log Analyzer"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:105
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:105
+#: src/build_log_analyzer/main.py:106
 msgid "Open build log"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:119 src/build_log_analyzer/main.py:286
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:119
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:286
+#: src/build_log_analyzer/main.py:120 src/build_log_analyzer/main.py:287
 msgid "Settings"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:120
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:120
+#: src/build_log_analyzer/main.py:121
 msgid "Copy Debug Info"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:121
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:121
+#: src/build_log_analyzer/main.py:122
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:122
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:122
+#: src/build_log_analyzer/main.py:123
 msgid "About Build Log Analyzer"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:155
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:155
+#: src/build_log_analyzer/main.py:156
 msgid "Ready"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:170
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:170
+#: src/build_log_analyzer/main.py:171
 msgid "Welcome"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:176
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:176
+#: src/build_log_analyzer/main.py:177
 msgid "Welcome to Build Log Analyzer"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:177
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:177
+#: src/build_log_analyzer/main.py:178
 msgid ""
 "Analyze build logs easily.\n"
 "\n"
@@ -73,59 +88,73 @@ msgid ""
 "✓ Summary statistics"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:184
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:184
+#: src/build_log_analyzer/main.py:185
 msgid "Get Started"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:208
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:208
+#: src/build_log_analyzer/main.py:209
 msgid "Open Build Log"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:242 src/build_log_analyzer/main.py:248
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:242
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:248
+#: src/build_log_analyzer/main.py:243 src/build_log_analyzer/main.py:249
 #, python-format
 msgid "Line %(line)d — %(cat)s"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:252
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:252
+#: src/build_log_analyzer/main.py:253
 #, python-format
 msgid "%(count)d errors"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:253
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:253
+#: src/build_log_analyzer/main.py:254
 #, python-format
 msgid "%(count)d warnings"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:254
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:254
+#: src/build_log_analyzer/main.py:255
 #, python-format
 msgid "%(lines)d lines, %(errors)d errors, %(warnings)d warnings"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:289
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:289
+#: src/build_log_analyzer/main.py:290
 msgid "Analysis"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:290
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:290
+#: src/build_log_analyzer/main.py:291
 msgid "Show info messages"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:310
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:310
+#: src/build_log_analyzer/main.py:311
 msgid "Debug info copied"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:316
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:316
+#: src/build_log_analyzer/main.py:317
 msgid "General"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:318
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:318
+#: src/build_log_analyzer/main.py:319
 msgid "Quit"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:319
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:319
+#: src/build_log_analyzer/main.py:320
 msgid "Keyboard shortcuts"
 msgstr ""
 
-#: src/build_log_analyzer/main.py:336
+#: build/build-log-analyzer_0.1.0_all/usr/lib/python3/dist-packages/build_log_analyzer/main.py:336
+#: src/build_log_analyzer/main.py:337
 msgid ""
 "Parse sbuild and pbuilder build logs. Highlight errors, warnings, and FTBFS "
 "patterns."
