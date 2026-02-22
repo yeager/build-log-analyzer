@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[o:danielnylander:p:build-log-analyzer:r:build-log-analyzer-pot]
+[o:danielnylander:p:build-log-analyzer:r:build_log_analyzer]
 file_filter = po/<lang>.po
 source_file = po/build-log-analyzer.pot
 source_lang = en
