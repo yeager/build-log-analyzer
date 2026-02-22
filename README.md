@@ -1,10 +1,10 @@
 # Build Log Analyzer
 
-Analysera sbuild/pbuilder-loggar med felmarkering.
+Analyze sbuild/pbuilder logs with error highlighting.
 
-GTK4/Adwaita · Python · v0.1.1 · 25 översättningsbara strängar
+GTK4/Adwaita · Python · v0.1.1 · 25 translatable strings
 
-## Installation
+## Install
 
 ### Ubuntu / Debian
 ```bash
@@ -12,10 +12,10 @@ sudo apt install build-log-analyzer
 ```
 Repo: [yeager/debian-repo](https://github.com/yeager/debian-repo)
 
-## Översättning
+## Translation
 
-Översätts via [Transifex](https://app.transifex.com/danielnylander/build-log-analyzer/). 11 språk.
+Translated via [Transifex](https://app.transifex.com/danielnylander/build-log-analyzer/). 11 languages.
 
-## Licens
+## License
 
 GPL-3.0-or-later · Daniel Nylander <daniel@danielnylander.se>
