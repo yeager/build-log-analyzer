@@ -1,0 +1,21 @@
+Source: build-log-analyzer
+Section: devel
+Priority: optional
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               pybuild-plugin-pyproject
+Standards-Version: 4.7.0
+Homepage: https://github.com/yeager/build-log-analyzer
+Vcs-Git: https://github.com/yeager/build-log-analyzer.git
+Vcs-Browser: https://github.com/yeager/build-log-analyzer
+
+Package: build-log-analyzer
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-gi, gir1.2-gtk-4.0
+Description: GTK4 sbuild and pbuilder log analyzer with error highlighting
+ build-log-analyzer parses and displays sbuild and pbuilder build logs
+ in a GTK4 interface. It highlights errors, warnings, and provides
+ structured views of Debian package build output.
